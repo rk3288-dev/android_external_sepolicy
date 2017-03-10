@@ -152,6 +152,8 @@
 /system/vendor/bin/gpsd u:object_r:gpsd_exec:s0
 /system/bin/dnsmasq     u:object_r:dnsmasq_exec:s0
 /system/bin/hostapd     u:object_r:hostapd_exec:s0
+/system/bin/hostapd_rtl     u:object_r:hostapd_rtl_exec:s0
+/system/bin/hostapd_esp     u:object_r:hostapd_esp_exec:s0
 /system/bin/clatd	u:object_r:clatd_exec:s0
 /system/bin/lmkd        u:object_r:lmkd_exec:s0
 /system/bin/inputflinger u:object_r:inputflinger_exec:s0
@@ -160,6 +162,8 @@
 /system/bin/logwrapper  u:object_r:system_file:s0
 /system/bin/vdc         u:object_r:vdc_exec:s0
 /system/bin/install-recovery.sh u:object_r:install_recovery_exec:s0
+/system/bin/boot-linux.sh u:object_r:install_recovery_exec:s0
+/system/bin/catlog.sh u:object_r:install_recovery_exec:s0
 /system/bin/dex2oat     u:object_r:dex2oat_exec:s0
 # patchoat executable has (essentially) the same requirements as dex2oat.
 /system/bin/patchoat    u:object_r:dex2oat_exec:s0
